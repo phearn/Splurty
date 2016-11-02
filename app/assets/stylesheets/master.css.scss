@@ -9,8 +9,8 @@
     font-weight:bold;
     font-style: italic;
     position: relative;
-    background: #2830a0;
-    border-radius: 10%;
+    background: #af1f1f;
+    border-radius: 20%;
     border: 0px;
     width: 120px;
     height: 80px;
@@ -25,12 +25,12 @@
 .slogan {
   font-family: 'ambleregular', sans-serif;
   padding-top: 20px;
-  padding-bottom: 10px;
   font-weight: 700;
   }
 
 .links {
   padding-top:26px;
+  text-align: right;
   }
 
 .links a {
@@ -52,7 +52,7 @@ hr {
 h1 {
   font-family: 'amblebold', sans-serif;
   font-weight:bold;
-  font-size:32px;
+  font-size:40px;
 }
 
 h2 {
@@ -80,4 +80,24 @@ h2 {
 
 .about {
   font-family: 'ambleregular', sans-serif;
+}
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
+
+.modal {
+    font-family: 'ambleregular', sans-serif;
+}
+
+h2 span {
+  color: #dddddd;
+  font-family: 'amblebold', sans-serif;
+  font-size: 20px;
+}
+
+::selection {
+  background-color: #f84342;
 }
